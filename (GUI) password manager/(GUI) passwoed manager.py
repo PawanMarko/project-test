@@ -95,7 +95,7 @@ window.config(padx=50, pady=50, bg="white")
 
 # Canvas + logo
 canvas = tk.Canvas(width=200, height=200, bg="white", highlightthickness=0)
-logo_img = tk.PhotoImage(file=r"C:\Users\Pawan Marko\Documents\Coding\Python\logo.png") # make sure logo.png exists in same folder
+logo_img = tk.PhotoImage(file=rxxxxxxxxxxxxxx\logo.png") # make sure logo.png exists in same folder
 canvas.create_image(100, 100, image=logo_img)
 canvas.grid(column=1, row=0, columnspan=2)
 
@@ -132,3 +132,4 @@ search_button.grid(row=1, column=2)
 
 
 window.mainloop()
+
